@@ -1,0 +1,4 @@
+<label>Index Page</label>
+<%if current_user%>
+  <%= link_to "User", user_path((current_user.id)) %>
+<% end %>
